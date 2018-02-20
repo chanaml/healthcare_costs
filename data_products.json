@@ -1,0 +1,178 @@
+{
+	"colorCode" : "Products",
+	"name" : ["Products"],
+	"key" : "Products: $600B",
+	"size" : 18,
+	"children" : [
+		{
+			"colorCode" : "Products",
+			"key" : "Prescription: $328B",
+			"size" : 9.8,
+			"name" : ["Query"],
+			"children" : [
+				{
+					"colorCode" : "Life Sciences",
+					"name" : ["Biotech"],
+					"key" : "Pharmaceuticals: $223B",
+					"size" : 6.7,
+					"children" : [
+						{
+							"colorCode" : "Life Sciences",
+							"name" : ["Biotech"],
+							"key" : "Innovator: $123B",
+							"size" : 3.7,
+							"children" : [
+								{
+									"colorCode" : "Life Sciences",
+									"name" : ["Biotech"],
+									"key" : "Pfizer: $18.2B",
+									"size" : 0.55
+								},
+								{
+									"colorCode" : "Life Sciences",
+									"name" : ["Biotech"],
+									"key" : "Novartis: $17.6B",
+									"size" : 0.53
+								},
+								{
+									"colorCode" : "Life Sciences",
+									"name" : ["Biotech"],
+									"key" : "Roche: $16.1B",
+									"size" : 0.48
+								},
+								{
+									"colorCode" : "Life Sciences",
+									"name" : ["Biotech"],
+									"key" : "Merck: $11.7B",
+									"size" : 0.35
+								},
+								{
+									"colorCode" : "Life Sciences",
+									"name" : ["Biotech"],
+									"key" : "Sanofi: $11.4B",
+									"size" : 0.34
+								},
+								{
+									"colorCode" : "Life Sciences",
+									"name" : ["Biotech"],
+									"key" : "Other: $48.4B",
+									"size" : 1.45
+								}
+							]
+						},
+						{
+							"colorCode" : "Life Sciences",
+							"name" : ["Biotech"],
+							"key" : "Generic: $99.7B",
+							"size" : 3,
+							"children" : [
+								{
+									"colorCode" : "Life Sciences",
+									"name" : ["Biotech"],
+									"key" : "Teva: $2.5B",
+									"size" : 0.07
+								},
+								{
+									"colorCode" : "Life Sciences",
+									"name" : ["Biotech"],
+									"key" : "Allergan: $2.7B",
+									"size" : 0.08
+								},
+								{
+									"colorCode" : "Life Sciences",
+									"name" : ["Biotech"],
+									"key" : "Teva: $1B",
+									"size" : 0.03
+								},
+								{
+									"colorCode" : "Life Sciences",
+									"name" : ["Biotech"],
+									"key" : "Other: $93.5B",
+									"size" : 2.8
+								}
+							]
+						}
+					]
+				},
+				{
+					"colorCode" : "Life Sciences",
+					"name" : ["Biotech"],
+					"key" : "Biotechnology: $106",
+					"size" : 3.2,
+					"children" : [
+						{
+							"colorCode" : "Life Sciences",
+							"name" : ["Biotech"],
+							"key" : "Biologics: $104B",
+							"size" : 3.1,
+							"children" : [
+								{
+									"colorCode" : "Life Sciences",
+									"name" : ["Biotech"],
+									"key" : "Gilead: $104B",
+									"size" : 0.35
+								},
+								{
+									"colorCode" : "Life Sciences",
+									"name" : ["Biotech"],
+									"key" : "Amgen: $8.5B",
+									"size" : 0.25
+								},
+								{
+									"colorCode" : "Life Sciences",
+									"name" : ["Biotech"],
+									"key" : "Biogen: $4.5B",
+									"size" : 0.13
+								},
+								{
+									"colorCode" : "Life Sciences",
+									"name" : ["Biotech"],
+									"key" : "Celgene: $4.9B",
+									"size" : 0.15
+								},
+								{
+									"colorCode" : "Life Sciences",
+									"name" : ["Biotech"],
+									"key" : "Other: $74B",
+									"size" : 2.22
+								}
+							]
+						},
+						{
+							"colorCode" : "Life Sciences",
+							"name" : ["Biotech"],
+							"key" : "Biosimilars: $2B",
+							"size" : 0.1
+						}
+					]
+				}
+			]
+		},
+		{
+			"colorCode" : "Products",
+			"key" : "Devices and Equipment: $225B",
+			"size" : 6.7,
+			"name" : ["Query"],
+			"children" : [
+				{
+					"colorCode" : "Life Sciences",
+					"name" : ["Biotech"],
+					"key" : "Durable: $162B",
+					"size" : 4.9
+				},
+				{
+					"colorCode" : "Life Sciences",
+					"name" : ["Biotech"],
+					"key" : "Nondurable: $62B",
+					"size" : 1.9
+				}
+			]
+		},
+		{
+			"colorCode" : "Products",
+			"key" : "Over-the-Counter Drugs",
+			"size" : 0.3,
+			"name" : ["Query"]
+		}
+	]
+}

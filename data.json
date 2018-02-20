@@ -1,0 +1,307 @@
+{
+	"children" : [
+		{
+			"colorCode" : "Providers",
+			"name" : ["Providers"],
+			"key" : "Providers: $2400B",
+			"size" : 77,
+			"children" : [
+				{
+					"colorCode" : "Providers",
+					"key" : "Primary Care: $600B",
+					"size" : 24,
+					"name" : ["Public"],
+					"children" : [
+						{
+							"colorCode" : "Providers",
+							"name" : ["Primary Care Physicians"],
+							"key" : "Primary Care Physicians: $200B",
+							"size" : 6.5
+						},
+						{
+							"colorCode" : "Providers",
+							"name" : ["Specialist Physicians"],
+							"key" : "Specialist Physicians: $300B",
+							"size" : 9,
+							"children" : [
+								{
+									"colorCode" : "Providers",
+									"name" : ["Specialist"],
+									"key" : "Ophthalmology",
+									"size" : 3
+								},
+								{
+									"colorCode" : "Providers",
+									"name" : ["Specialist"],
+									"key" : "Cardiology",
+									"size" : 2
+								},
+								{
+									"colorCode" : "Providers",
+									"name" : ["Specialist"],
+									"key" : "Nephrology",
+									"size" : 2
+								},
+								{
+									"colorCode" : "Providers",
+									"name" : ["Specialist"],
+									"key" : "Radiology",
+									"size" : 2
+								},
+								{
+									"colorCode" : "Providers",
+									"name" : ["Specialist"],
+									"key" : "Psychiatry",
+									"size" : 2
+								},
+								{
+									"colorCode" : "Providers",
+									"name" : ["Specialist"],
+									"key" : "Dermatology",
+									"size" : 2
+								},
+								{
+									"colorCode" : "Providers",
+									"name" : ["Specialist"],
+									"key" : "Oncology",
+									"size" : 2
+								},
+								{
+									"colorCode" : "Providers",
+									"name" : ["Specialist"],
+									"key" : "Other",
+									"size" : 2
+								}
+							]
+						},
+						{
+							"colorCode" : "Providers",
+							"name" : ["Dental"],
+							"key" : "Dental: $125B",
+							"size" : 3.5
+						},
+						{
+							"colorCode" : "Providers",
+							"name" : ["Outpatient Clinics"],
+							"key" : "Outpatient Clinics: $5B",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Providers",
+							"name" : ["Labs"],
+							"key" : "Labs: $60B",
+							"size" : 2
+						},
+						{
+							"colorCode" : "Providers",
+							"name" : ["Urgent Care"],
+							"key" : "Urgent Care Clinics: $15B",
+							"size" : 2
+						},
+
+						{
+							"colorCode" : "Providers",
+							"name" : ["Other"],
+							"key" : "Other",
+							"size" : 1
+						}
+					]
+				},
+				{
+					"colorCode" : "Providers",
+					"key" : "Acute Care: $1100B",
+					"size" : 41,
+					"name" : ["Acute Care: $1100B"],
+					"children" : [
+						{
+							"colorCode" : "Providers",
+							"name" : ["Acute Care"],
+							"key" : "Hospitals: $1000B",
+							"size" : 28
+						},
+						{
+							"colorCode" : "Providers",
+							"name" : ["Acute Care"],
+							"key" : "Psychiatric Hospitals: $60B",
+							"size" : 2
+						},
+						{
+							"colorCode" : "Providers",
+							"name" : ["Acute Care"],
+							"key" : "Outpatient Surgical Centers: $20B",
+							"size" : 2
+						},
+						{
+							"colorCode" : "Providers",
+							"name" : ["Acute Care"],
+							"key" : "Ambulances: $15B",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Providers",
+							"name" : ["Acute Care"],
+							"key" : "Nurse Staffing: $10B",
+							"size" : 1
+						}
+					]
+				},
+				{
+					"colorCode" : "Providers",
+					"key" : "Post-Acute Care: $340B",
+					"size" : 12,
+					"name" : ["Post-Acute Care"],
+					"children" : [
+						{
+							"colorCode" : "Providers",
+							"name" : ["Post-Acute Care"],
+							"key" : "Nursing Care: $160B",
+							"size" : 5
+						},
+						{
+							"colorCode" : "Payers",
+							"name" : ["Commercial"],
+							"key" : "Home Health: $93B",
+							"size" : 3
+						},
+						{
+							"colorCode" : "Payers",
+							"name" : ["Public"],
+							"key" : "Rehab Clinics: $44B",
+							"size" : 1
+						},{
+							"colorCode" : "Payers",
+							"name" : ["Public"],
+							"key" : "Dialysis Clinics: $25B",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Payers",
+							"name" : ["Public"],
+							"key" : "Hospice Care: $15B",
+							"size" : 0.5
+						},
+						{
+							"colorCode" : "Payers",
+							"name" : ["Public"],
+							"key" : "Long-term care Hospital: $6B",
+							"size" : 0.5
+						}
+					]
+				}
+			]
+		},
+		{
+			"colorCode" : "Payers",
+			"name" : ["Payerss"],
+			"key" : "Payerss: $260B",
+			"size" : 9,
+			"children" : [
+				{
+					"colorCode" : "Payers",
+					"key" : "Commercial plans",
+					"size" : 5,
+					"name" : ["Query","Query"],
+					"children" : [
+						{
+							"colorCode" : "Providers",
+							"name" : ["XYZ"],
+							"key" : "Accountable Care Organizations (ACOs)",
+							"size" : 19
+						},
+						{
+							"colorCode" : "Providers",
+							"name" : ["XYZ"],
+							"key" : "Integrated Delivery Networks (IDNs)",
+							"size" : 20
+						}
+					]
+				},
+				{
+					"colorCode" : "Payers",
+					"name" : ["Query","Annotate"],
+					"key" : "Medicare",
+					"size" : 1,
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"key" : "Query-Annotate-Annotate",
+							"size" : 1,
+							"name" : [
+								"Query",
+								"Annotate",
+								"Annotate"
+							]
+						}
+					]
+				},
+				{
+					"colorCode" : "Payers",
+					"name" : ["Query","Annotate"],
+					"key" : "Medicaid",
+					"size" : 1,
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"key" : "Query-Annotate-Annotate",
+							"size" : 1,
+							"name" : [
+								"Query",
+								"Annotate",
+								"Annotate"
+							]
+						}
+					]
+				},
+				{
+					"colorCode" : "Payers",
+					"name" : ["Query","Annotate"],
+					"key" : "Veteran Affairs",
+					"size" : 1,
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"key" : "Query-Annotate-Annotate",
+							"size" : 1,
+							"name" : [
+								"Query",
+								"Annotate",
+								"Annotate"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"colorCode" : "Products",
+			"name" : ["Products"],
+			"key" : "Products: $433B",
+			"size" : 16.9,
+			"children" : [
+				{
+					"colorCode" : "Products",
+					"key" : "Prescription",
+					"size" : 9.8,
+					"name" : ["Query"],
+					"children" : [
+						{
+							"colorCode" : "Life Sciences",
+							"name" : ["Biotech"],
+							"key" : "Pharmaceuticals",
+							"size" : 6.7
+						},
+						{
+							"colorCode" : "Life Sciences",
+							"name" : ["Biotech"],
+							"key" : "Biotechnology",
+							"size" : 3.2
+						}
+					]
+				}
+			]
+		}
+	],
+	"name" : "Healthcare",
+	"key" : "Healthcare Costs: $3.2T",
+	"size" : 100
+}

@@ -1,0 +1,111 @@
+{
+  "colorCode" : "Payers",
+  "name" : ["Payers"],
+  "key" : "Payers: $203B",
+  "size" : 6.1,
+  "children" : [
+    {
+      "colorCode" : "Payers",
+      "key" : "Commercial plans: $130B",
+      "size" : 3.9,
+      "name" : ["Query","Query"],
+      "children" : [
+        {
+          "colorCode" : "Providers",
+          "name" : ["XYZ"],
+          "key" : "Managed Care: $117B",
+          "size" : 3.5,
+          "children": [
+            {
+            "colorCode" : "Providers",
+            "name" : ["XYZ"],
+            "key" : "UnitedHealth Group: $63B",
+            "size" : 1.9
+            },
+            {
+            "colorCode" : "Providers",
+            "name" : ["XYZ"],
+            "key" : "Anthem: $17B",
+            "size" : 0.5
+            },
+            {
+            "colorCode" : "Providers",
+            "name" : ["XYZ"],
+            "key" : "Aetna: $17B",
+            "size" : 0.5
+            },
+            {
+            "colorCode" : "Providers",
+            "name" : ["XYZ"],
+            "key" : "Humana: $11B",
+            "size" : 0.3
+            },
+            {
+            "colorCode" : "Providers",
+            "name" : ["XYZ"],
+            "key" : "Other: $10B",
+            "size" : 0.3
+            }
+          ]
+        },
+        {
+          "colorCode" : "Providers",
+          "name" : ["XYZ"],
+          "key" : "Pharmacy Benefit Managers: $12B",
+          "size" : 0.4,
+          "children": [
+            {
+            "colorCode" : "Providers",
+            "name" : ["XYZ"],
+            "key" : "CVS Caremark: $4B",
+            "size" : 0.1
+            },
+            {
+            "colorCode" : "Providers",
+            "name" : ["XYZ"],
+            "key" : "Express Scripts: $3.5B",
+            "size" : 0.1
+            },
+            {
+            "colorCode" : "Providers",
+            "name" : ["XYZ"],
+            "key" : "UnitedHealth Group: $0.7B",
+            "size" : 0.02
+            },{
+            "colorCode" : "Providers",
+            "name" : ["XYZ"],
+            "key" : "Other: $4.2B",
+            "size" : 0.13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "colorCode" : "Payers",
+      "name" : ["Query","Annotate"],
+      "key" : "Public: $73.8B",
+      "size" : 2.2,
+      "children" : [
+        {
+          "colorCode" : "Payers",
+          "name" : ["Query","Annotate"],
+          "key" : "Medicaid: $36.1B",
+          "size" : 1.1
+        },
+        {
+          "colorCode" : "Payers",
+          "name" : ["Query","Annotate"],
+          "key" : "Medicare: $36.3B",
+          "size" : 1.1
+        },
+        {
+          "colorCode" : "Payers",
+          "name" : ["Query","Annotate"],
+          "key" : "CHIP: $1.4B",
+          "size" : 0.04
+        }
+      ]
+    }
+  ]
+}
