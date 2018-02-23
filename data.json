@@ -55,7 +55,45 @@
 							"colorCode" : "Providers",
 							"name" : ["Where emergnecy or short-term care is provided (e.g. surgeries or urgent care)."],
 							"key" : "Hospitals: $1080B",
-							"size" : 32.44
+							"size" : 32.44,
+							"children": [
+							{
+								"colorCode" : "Providers",
+								"name" : ["University of Pittsburgh Medical Center"],
+								"key" : "UPMC: $12B",
+								"size" : 0.36
+							},
+							{
+								"colorCode" : "Providers",
+								"name" : [""],
+								"key" : "Cleveland Clinic: $11B",
+								"size" : 0.31
+							},
+							{
+								"colorCode" : "Providers",
+								"name" : [""],
+								"key" : "Cedars-Sinai Medical: $9B",
+								"size" : 0.28
+							},
+							{
+								"colorCode" : "Providers",
+								"name" : [""],
+								"key" : "Florida Hospital: $9B",
+								"size" : 0.26
+							},
+							{
+								"colorCode" : "Providers",
+								"name" : [""],
+								"key" : "Stanford: $8.5B",
+								"size" : 0.26
+							},
+							{
+								"colorCode" : "Providers",
+								"name" : [""],
+								"key" : "Other: $1033B",
+								"size" : 30.96
+							}
+							]
 						},
 						{
 							"colorCode" : "Providers",
