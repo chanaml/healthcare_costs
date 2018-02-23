@@ -168,7 +168,7 @@ label {
 
 </style>
 <body>
-  <h1 class="title">How does the money flow in U.S. healthcare?</h1>
+  <h1 class="title">Where does the money end up across the U.S. healthcare system?</h1>
 <script src="d3.v3.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script></script>
@@ -191,7 +191,7 @@ label {
 
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
     width = 1260 - margin.right - margin.left,
-    height = 1200 - margin.top - margin.bottom;
+    height = 900 - margin.top - margin.bottom;
 
 var i = 0,
     duration = 750,// animation duration
@@ -231,10 +231,10 @@ $(".toggle-btn:not('.noscript') input[type=radio]").change(function() {
     }
 });
 
-var x = "data1.json"
+var x = "data.json"
 
 function switch_total() {
-  d3.json("data1.json", function(error, flare) {
+  d3.json(x, function(error, flare) {
     edge_weight.domain([0,flare.size]);
     root = flare;
     root.x0 = height / 2;

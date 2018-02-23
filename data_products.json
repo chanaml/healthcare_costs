@@ -1,6 +1,6 @@
 {
 	"colorCode" : "Products",
-	"name" : ["Products"],
+	"name" : ["Medical products encompasses any drug, device, or tool utilized by providers for care."],
 	"key" : "Products: $600B",
 	"size" : 18,
 	"children" : [
@@ -8,53 +8,53 @@
 			"colorCode" : "Products",
 			"key" : "Prescription: $328B",
 			"size" : 9.8,
-			"name" : ["Query"],
+			"name" : ["Prescription drugs are drugs that require a physician prescription to be dispensed."],
 			"children" : [
 				{
 					"colorCode" : "Life Sciences",
-					"name" : ["Biotech"],
+					"name" : ["Pharmaceutical companies traditionally manufacturer and sell small-molecule prescription drugs. Small molecules are generally simple compounds, capable of being produced via chemical synthesis. Many have started to grow in the biologic space (see Biotechnology companies)"],
 					"key" : "Pharmaceuticals: $223B",
 					"size" : 6.7,
 					"children" : [
 						{
 							"colorCode" : "Life Sciences",
-							"name" : ["Biotech"],
+							"name" : ["Innovator companies largely focus on selling new drugs that they've discovered or acquired from other companies."],
 							"key" : "Innovator: $123B",
 							"size" : 3.7,
 							"children" : [
 								{
 									"colorCode" : "Life Sciences",
-									"name" : ["Biotech"],
+									"name" : [""],
 									"key" : "Pfizer: $18.2B",
 									"size" : 0.55
 								},
 								{
 									"colorCode" : "Life Sciences",
-									"name" : ["Biotech"],
+									"name" : [""],
 									"key" : "Novartis: $17.6B",
 									"size" : 0.53
 								},
 								{
 									"colorCode" : "Life Sciences",
-									"name" : ["Biotech"],
+									"name" : [""],
 									"key" : "Roche: $16.1B",
 									"size" : 0.48
 								},
 								{
 									"colorCode" : "Life Sciences",
-									"name" : ["Biotech"],
+									"name" : [""],
 									"key" : "Merck: $11.7B",
 									"size" : 0.35
 								},
 								{
 									"colorCode" : "Life Sciences",
-									"name" : ["Biotech"],
+									"name" : [""],
 									"key" : "Sanofi: $11.4B",
 									"size" : 0.34
 								},
 								{
 									"colorCode" : "Life Sciences",
-									"name" : ["Biotech"],
+									"name" : [""],
 									"key" : "Other: $48.4B",
 									"size" : 1.45
 								}
@@ -62,26 +62,26 @@
 						},
 						{
 							"colorCode" : "Life Sciences",
-							"name" : ["Biotech"],
+							"name" : ["Generic companies focus on manufacturing bioequivalent versions of new/novel products once the originating company's patent has expired."],
 							"key" : "Generic: $99.7B",
 							"size" : 3,
 							"children" : [
 								{
 									"colorCode" : "Life Sciences",
-									"name" : ["Biotech"],
+									"name" : [""],
 									"key" : "Teva: $2.5B",
 									"size" : 0.07
 								},
 								{
 									"colorCode" : "Life Sciences",
-									"name" : ["Biotech"],
+									"name" : [""],
 									"key" : "Allergan: $2.7B",
 									"size" : 0.08
 								},
 								{
 									"colorCode" : "Life Sciences",
-									"name" : ["Biotech"],
-									"key" : "Teva: $1B",
+									"name" : ["Part of Novartis"],
+									"key" : "Sandoz: $1B",
 									"size" : 0.03
 								},
 								{
@@ -96,7 +96,7 @@
 				},
 				{
 					"colorCode" : "Life Sciences",
-					"name" : ["Biotech"],
+					"name" : ["Biotech companies focus on selling new/novel biologic drugs. These are large protein molecules often produced through complex, recombinant DNA tech."],
 					"key" : "Biotechnology: $106",
 					"size" : 3.2,
 					"children" : [
@@ -152,17 +152,33 @@
 			"colorCode" : "Products",
 			"key" : "Devices and Equipment: $225B",
 			"size" : 6.7,
-			"name" : ["Query"],
+			"name" : ["May range from hospital beds to blood test meters. These are products that physicians use to support the care they provide."],
 			"children" : [
 				{
-					"colorCode" : "Life Sciences",
-					"name" : ["Biotech"],
+					"colorCode" : "Products",
+					"name" : ["Equipment designed to be used for long-term repeatable use. Can range anywhere from hospital beds to wheelchairs to blood pressure monitors."],
 					"key" : "Durable: $162B",
-					"size" : 4.9
+					"size" : 4.9,
+					"children" : [
+						{
+							"colorCode" : "Products",
+							"name" : ["Devices that can detect diseases, conditions, or infections."],
+							"key" : "In-vitro Devices: $19B",
+							"size" : 0.57,
+							"children" : [
+								{
+									"colorCode" : "Products",
+									"name" : ["Devices are used to obtain diagnostic results while with the patient or close to the patient (e.g. physician's office, at home)."],
+									"key" : "Point of Care Devices: $13B",
+									"size" : 0.39
+								}
+							]
+						}
+					]
 				},
 				{
-					"colorCode" : "Life Sciences",
-					"name" : ["Biotech"],
+					"colorCode" : "Products",
+					"name" : ["Equipment designed to only be used once. Can range from latex gloves to one-time use blood glucose strips."],
 					"key" : "Nondurable: $62B",
 					"size" : 1.9
 				}
@@ -170,9 +186,9 @@
 		},
 		{
 			"colorCode" : "Products",
-			"key" : "Over-the-Counter Drugs",
-			"size" : 0.3,
-			"name" : ["Query"]
+			"key" : "Over-the-Counter Drugs: $46B",
+			"size" : 1.37,
+			"name" : ["OTC drugs are drugs you can buy without physician prescription. This includes your typical cold or allergy medicine."]
 		}
 	]
 }

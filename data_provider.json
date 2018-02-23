@@ -1,182 +1,126 @@
 {
 	"colorCode" : "Providers",
-	"name" : ["Providers include all individuals involved in the actual administration of care. This primarily entails doctors and their associate staff."],
+	"name" : ["Includes individuals involved in the actual administration of care. This entails doctors and their associated staff."],
 	"key" : "Providers: $2300B",
-	"size" : 67.4,
+	"size" : 67.21,
 	"text" : "test",
 	"children" : [
 		{
 			"colorCode" : "Providers",
-			"key" : "Primary Care: $700B",
-			"size" : 21.1,
-			"name" : ["Primary care is defined here by outpatient forms of care whereby the patient is the one actively seeking care. This includes everything from routine checkups with your doctor to first-stage treatments of common ailments."],
+			"key" : "Chronic (Primary) Care: $700B",
+			"size" : 20.96,
+			"name" : ["Describes general monitoring of current health. This may include everything from routine checkups with your primary care physician to scheduled visits to your specialist physician (e.g. therapist, OB-GYN)."],
 			"children" : [
 				{
 					"colorCode" : "Providers",
-					"name" : ["Primary Care Physicians"],
-					"key" : "Primary Care Physicians: $200B",
-					"size" : 6
-				},
-				{
-					"colorCode" : "Providers",
-					"name" : ["Specialist Physicians"],
+					"name" : ["Specialists focus on a subtype of medicine. Example specialties range from gynecology to mental health to oncology."],
 					"key" : "Specialist Physicians: $300B",
-					"size" : 9,
-					"children" : [
-						{
-							"colorCode" : "Providers",
-							"name" : ["Specialist"],
-							"key" : "Ophthalmology",
-							"size" : 3
-						},
-						{
-							"colorCode" : "Providers",
-							"name" : ["Specialist"],
-							"key" : "Cardiology",
-							"size" : 2
-						},
-						{
-							"colorCode" : "Providers",
-							"name" : ["Specialist"],
-							"key" : "Nephrology",
-							"size" : 2
-						},
-						{
-							"colorCode" : "Providers",
-							"name" : ["Specialist"],
-							"key" : "Radiology",
-							"size" : 2
-						},
-						{
-							"colorCode" : "Providers",
-							"name" : ["Specialist"],
-							"key" : "Psychiatry",
-							"size" : 2
-						},
-						{
-							"colorCode" : "Providers",
-							"name" : ["Specialist"],
-							"key" : "Dermatology",
-							"size" : 2
-						},
-						{
-							"colorCode" : "Providers",
-							"name" : ["Specialist"],
-							"key" : "Oncology",
-							"size" : 2
-						},
-						{
-							"colorCode" : "Providers",
-							"name" : ["Specialist"],
-							"key" : "Other",
-							"size" : 2
-						}
-					]
+					"size" : 8.99
 				},
 				{
 					"colorCode" : "Providers",
-					"name" : ["Dental"],
+					"name" : ["Your first point-of-contact in healthcare when it comes to regular check-ups to addressing initial health conerns. This is typically your family doctor or general practictioner."],
+					"key" : "Primary Care Physicians: $200B",
+					"size" : 5.99
+				},
+				{
+					"colorCode" : "Providers",
+					"name" : ["Consists of professionals involved in prevention and treatment of diseases in your oral cavity."],
 					"key" : "Dental: $125B",
-					"size" : 3.7
+					"size" : 3.73
 				},
 				{
 					"colorCode" : "Providers",
-					"name" : ["Outpatient Clinics"],
-					"key" : "Outpatient Clinics: $5B",
-					"size" : 0.1
-				},
-				{
-					"colorCode" : "Providers",
-					"name" : ["Labs"],
+					"name" : ["Labs where clinical tests (e.g. blood work) for diagnostic purposes are performed."],
 					"key" : "Labs: $60B",
 					"size" : 1.8
 				},
 				{
 					"colorCode" : "Providers",
-					"name" : ["Urgent Care"],
-					"key" : "Urgent Care Clinics: $15B",
-					"size" : 2
+					"name" : ["Clinics that exist outside of the hospital setting. They are generally run by a handful of physicians and nurses. Such clinics include urgent care (i.e. places to treat serious (but not emergency room-required) illnesses like a cold) to fertility clinics."],
+					"key" : "Outpatient Clinics: $15B",
+					"size" : 0.45
 				}
 			]
 		},
 		{
 			"colorCode" : "Providers",
 			"key" : "Acute Care: $1200B",
-			"size" : 35.6,
-			"name" : ["Acute care is defined here as inpatient care whereby the patient is under active monitoring of care by a physician. This largely entails hospitalizations and its associated functions."],
+			"size" : 35.58,
+			"name" : ["Defined by short-term, often in-patient care, whereby the patient is under active monitoring by a physician."],
 			"children" : [
 				{
 					"colorCode" : "Providers",
-					"name" : ["Acute Care"],
+					"name" : ["Where emergnecy or short-term care is provided (e.g. surgeries or urgent care)."],
 					"key" : "Hospitals: $1080B",
-					"size" : 32.4
+					"size" : 32.44
 				},
 				{
 					"colorCode" : "Providers",
-					"name" : ["Acute Care"],
+					"name" : ["Hospitals that specialize in treatment of serious mental health disorders (e.g. schizophrenia)."],
 					"key" : "Psychiatric Hospitals: $60B",
 					"size" : 1.8
 				},
 				{
 					"colorCode" : "Providers",
-					"name" : ["Acute Care"],
+					"name" : ["Such outpatient centers provide same-day, basic surgical care (e.g. cataract surgey, colonoscopy, etc.). "],
 					"key" : "Outpatient Surgical Centers: $20B",
 					"size" : 0.6
 				},
 				{
 					"colorCode" : "Providers",
-					"name" : ["Acute Care"],
+					"name" : ["Vehicalar services for transporting patients to places of care."],
 					"key" : "Ambulances: $15B",
-					"size" : 1
+					"size" : 0.45
 				},
 				{
 					"colorCode" : "Providers",
-					"name" : ["Acute Care"],
+					"name" : ["Nursing services in support of medical doctors providing acute care."],
 					"key" : "Nursing Support: $10B",
-					"size" : 1
+					"size" : 0.30
 				}
 			]
 		},
 		{
 			"colorCode" : "Providers",
 			"key" : "Post-Acute Care: $355B",
-			"size" : 10.7,
-			"name" : ["Post-Acute Care"],
+			"size" : 10.66,
+			"name" : ["Defined by rehabilitation or palliative services that you'd receive afte a stay in an acute care."],
 			"children" : [
 				{
 					"colorCode" : "Providers",
-					"name" : ["Post-Acute Care"],
+					"name" : ["Nursing services associated with post-acute care (e.g. visiting nurses, nursing homes)."],
 					"key" : "Nursing Care: $173B",
 					"size" : 5.2
 				},
 				{
 					"colorCode" : "Payers",
-					"name" : ["Commercial"],
+					"name" : ["Supportive care provided at home. Often for adults or seniors recovering from hospital stay."],
 					"key" : "Home Health: $93B",
-					"size" : 2.8
+					"size" : 2.77
 				},
 				{
 					"colorCode" : "Payers",
-					"name" : ["Public"],
-					"key" : "Rehab Clinics: $44B",
-					"size" : 1.3
+					"name" : ["Clinics with goal of re-integrating patient back into day-to-day life (e.g. drug rehab, psych rehab)."],
+					"key" : "Rehabilitation Clinics: $44B",
+					"size" : 1.32
 				},{
 					"colorCode" : "Payers",
-					"name" : ["Public"],
+					"name" : ["Clinics that provide dialysis (for patients with forms of kidney failure)."],
 					"key" : "Dialysis Clinics: $25B",
-					"size" : 0.7
+					"size" : 0.75
 				},
 				{
 					"colorCode" : "Payers",
-					"name" : ["Public"],
+					"name" : ["Clinics that focus on palliative care, often for terminally-ill patients."],
 					"key" : "Hospice Care: $15B",
-					"size" : 0.4
+					"size" : 0.45
 				},
 				{
 					"colorCode" : "Payers",
-					"name" : ["Public"],
+					"name" : ["Hospitals designed for long-term care (greater than ~25 days stay)"],
 					"key" : "Long-term care Hospital: $6B",
-					"size" : 0.2
+					"size" : 0.18
 				}
 			]
 		}

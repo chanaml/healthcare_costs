@@ -1,48 +1,48 @@
 {
   "colorCode" : "Payers",
-  "name" : ["Payers"],
+  "name" : ["Refers to entities that 'pay' for care. These largely represent health insurers that are financially incentivised spread risk across more members and lower cost of care per member."],
   "key" : "Payers: $203B",
   "size" : 6.1,
   "children" : [
     {
       "colorCode" : "Payers",
-      "key" : "Commercial plans: $130B",
+      "key" : "Commercial Payers: $130B",
       "size" : 3.9,
-      "name" : ["Query","Query"],
+      "name" : ["Payers that either pay for care among private businesses they insure or are contracted by self-insured businesses to help determine what care to pay for."],
       "children" : [
         {
-          "colorCode" : "Providers",
-          "name" : ["XYZ"],
+          "colorCode" : "Payers",
+          "name" : ["Managed Care Organizations (MCOs) are private business (i.e. health insurers) that make money from spread of risk they take on among their members and amount of medical services they pay for."],
           "key" : "Managed Care: $117B",
           "size" : 3.5,
           "children": [
             {
             "colorCode" : "Providers",
-            "name" : ["XYZ"],
-            "key" : "UnitedHealth Group: $63B",
+            "name" : ["Largest private U.S. managed care company with a market cap of $220B. They serve ~115MM people in the U.S."],
+            "key" : "UnitedHealth: $63B",
             "size" : 1.9
             },
             {
             "colorCode" : "Providers",
-            "name" : ["XYZ"],
+            "name" : ["Second largest U.S. managed care company with a market cap of $60B. They serve ~70MM people in the U.S."],
             "key" : "Anthem: $17B",
             "size" : 0.5
             },
             {
             "colorCode" : "Providers",
-            "name" : ["XYZ"],
+            "name" : ["Third largest U.S. managed care company with a market cap of $58B. They serve ~47MM people in the U.S."],
             "key" : "Aetna: $17B",
             "size" : 0.5
             },
             {
             "colorCode" : "Providers",
-            "name" : ["XYZ"],
+            "name" : ["Fourth largest U.S. managed care company with a market cap of $38B. They serve ~14MM people in the U.S."],
             "key" : "Humana: $11B",
             "size" : 0.3
             },
             {
             "colorCode" : "Providers",
-            "name" : ["XYZ"],
+            "name" : ["Other MCOs."],
             "key" : "Other: $10B",
             "size" : 0.3
             }
@@ -50,30 +50,30 @@
         },
         {
           "colorCode" : "Providers",
-          "name" : ["XYZ"],
+          "name" : ["Pharmacy Benefit Managers (PBMs) work with MCOs or self-insured businesses to take on risk of care related to prescription medicine."],
           "key" : "Pharmacy Benefit Managers: $12B",
           "size" : 0.4,
           "children": [
             {
             "colorCode" : "Providers",
-            "name" : ["XYZ"],
+            "name" : ["Largest U.S. PBM by revenue ($120M) and number of members (90MM) after acquisition of Caremark in 2006 for $21B."],
             "key" : "CVS Caremark: $4B",
             "size" : 0.1
             },
             {
             "colorCode" : "Providers",
-            "name" : ["XYZ"],
+            "name" : ["Second largest PBM by revenue ($100M) and number of members (85MM) after acquisition of Medco in 2012 for $29B."],
             "key" : "Express Scripts: $3.5B",
             "size" : 0.1
             },
             {
             "colorCode" : "Providers",
-            "name" : ["XYZ"],
-            "key" : "UnitedHealth Group: $0.7B",
+            "name" : ["Owns third largest PBM by revenue ($21.6M) and number of members (66MM) after acquisition of Catamaran in 2015 for $13B."],
+            "key" : "UnitedHealth: $0.7B",
             "size" : 0.02
             },{
             "colorCode" : "Providers",
-            "name" : ["XYZ"],
+            "name" : ["Other PBMs."],
             "key" : "Other: $4.2B",
             "size" : 0.13
             }
@@ -83,27 +83,33 @@
     },
     {
       "colorCode" : "Payers",
-      "name" : ["Query","Annotate"],
+      "name" : ["Publicly-funded payers that pay for care for eligible U.S. residents."],
       "key" : "Public: $73.8B",
       "size" : 2.2,
       "children" : [
         {
           "colorCode" : "Payers",
-          "name" : ["Query","Annotate"],
+          "name" : ["Medicaid is jointly funded by federal and state governments to pay for care among low-income populations, defined by 138% of federal poverty level. Medicaid serves 74MM people."],
           "key" : "Medicaid: $36.1B",
           "size" : 1.1
         },
         {
           "colorCode" : "Payers",
-          "name" : ["Query","Annotate"],
+          "name" : ["Medicare is a federally-funded program to pay for care among elderly (65+) or those with a disability. Medicare serves 55MM people. For those enrolled under Part C (Medicare Advantage), program pays private payers to manage care."],
           "key" : "Medicare: $36.3B",
           "size" : 1.1
         },
         {
           "colorCode" : "Payers",
-          "name" : ["Query","Annotate"],
+          "name" : ["CHIP pays for care among uninsured children in families whose income does not qualify for Medicaid (8.9MM children)."],
           "key" : "CHIP: $1.4B",
-          "size" : 0.04
+          "size" : 0.1
+        },
+        {
+          "colorCode" : "Payers",
+          "name" : ["VA pays for care among U.S. military war veterans (4.6MM veterans) se income does not qualify for Medicaid."],
+          "key" : "Veterans Affairs: $1.4B",
+          "size" : 0.1
         }
       ]
     }
